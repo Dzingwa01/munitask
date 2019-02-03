@@ -11,7 +11,6 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     use Notifiable;
     use Uuids;
-
     /**
      * The attributes that are mass assignable.
      *
